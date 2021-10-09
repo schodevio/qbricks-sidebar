@@ -1,4 +1,4 @@
-# qbricks_starter
+# qbricks-starter
 
 ## Project setup
 ```

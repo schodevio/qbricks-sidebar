@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="p-4 m-2">
+    <header class="text-center">
+      <h2 class="text-primary text-uppercase fw-bolder fs-6">qbricks</h2>
+
+      <p class="mt-2 fw-bold fs-3">
+        Component Name
+      </p>
+
+      <p class="mt-4 fs-5 text-muted">
+        Simple description about a component made with Vue
+      </p>
+    </header>
+
+    <section class="mt-8">
+      <div class="w-100 text-center">Place for basic component...</div>
+    </section>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'qbrics-starter-app'
 }
 </script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
