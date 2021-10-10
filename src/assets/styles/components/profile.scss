@@ -1,0 +1,22 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+
+  &__image {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  &__name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 1.25rem;
+  }
+
+  &__title {
+    font-size: .85rem;
+    color: rgba(white, .4)
+  }
+}

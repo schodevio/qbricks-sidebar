@@ -1,0 +1,18 @@
+.btn {
+  &-icon {
+    padding: 0;
+    background: transparent;
+    color: inherit;
+    border-radius: 50%;
+
+    &:focus,
+    &:active {
+      outline: none !important;
+      box-shadow: none;
+    }
+
+    &:hover {
+      color: rgba(white, .4);
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.cta {
+  margin: 2.75rem;
+  padding: 1.5rem;
+  background: linear-gradient(225deg, #483FBD, rgba(#2E2E48, 0));
+  border-radius: 2.5rem;
+  box-shadow: 0 4px 33px rgba(black, .25);
+
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__header {
+    font-size: 1.15rem;
+  }
+
+  &__info {
+    font-size: .85rem;
+    color: rgba(white, .4)
+  }
+}

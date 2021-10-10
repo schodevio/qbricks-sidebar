@@ -1,0 +1,23 @@
+.sidebar {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+  flex: 1 0 auto;
+  overflow-y: auto;
+  width: 20rem;
+  height: 100%;
+  background: $dark;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background: $dark;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, $primary-gradient-light, $primary);
+  }
+}
